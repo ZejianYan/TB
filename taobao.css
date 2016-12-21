@@ -1,0 +1,773 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none; 
+	text-decoration: none;
+	font-size: 12px;
+	color: #999999;
+}
+
+.usernav-wrapper{
+	width: 100%;
+	background-color: #f5f5f5;
+	border-bottom: 1px solid #eee;
+}
+
+.usernav-wrapper .usernav-content{
+		width: 1190px;
+		margin: 0 auto; 
+		height: 35px;
+}
+
+.usernav-wrapper .usernav-content:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left{
+	float: left;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li{
+	float: left;
+	padding: 0 7px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li{
+	max-width: 98px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow:ellipsis;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left div{
+	height: 35px;
+	line-height: 35px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li a{
+	margin-right: 7px;
+	float: left;
+	font-size: 12px;
+	color: #6c6c6c;	
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li span{
+	float: left;
+	margin-right: 7px;	
+}
+
+.usernav-wrapper .usernav-content .usernav-content-left li a:hover{
+	color: #f40;
+}
+
+/*.usernav-wrapper .usernav-content .usernm span{
+	margin-top: 13px;
+	width: 5px;
+	height: 5px;
+	background-color: black;
+}*/
+
+.usernav-wrapper .usernav-content-right{
+	float: right;
+}
+
+.usernav-wrapper .usernav-content-right li{
+	float: left;
+}
+
+.usernav-wrapper .usernav-content-right li div{
+	height: 35px;
+	line-height: 35px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li a{
+	margin-right: 7px;
+	float: left;
+	font-size: 12px;
+	color: #6c6c6c;	
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li a:hover{
+	color: #f40;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li{
+	float: left;
+	padding: 0 7px;
+}
+
+.usernav-wrapper .usernav-content .usernav-content-right li.line{
+	height: 35px;
+	line-height: 35px;
+	color: #ccc;
+}
+
+
+.taobao-body{
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.taobao-body .head{
+	position: relative;
+	height: 100px;
+	padding-top: 18px;
+}
+
+.taobao-body .head-search{
+	 margin: 0 220px 0 250px;
+	 height: 200px;
+}
+
+.taobao-body .head-logo{
+	width: 230px;
+	height: 80px;
+	background-image: url(https://img.alicdn.com/tps/i2/TB1bNE7LFXXXXaOXFXXwFSA1XXX-292-116.png_145x145.jpg);
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 0px;
+	top: 25px;
+
+}
+
+
+.taobao-body .head-logo a{
+	display: block;
+	width: 146px;
+	height: 0px;
+	padding-top: 60px;
+	overflow: hidden;;
+}
+
+.taobao-body .head-code a{
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+	display: block;
+	text-align: center;
+	width: 94px;
+	height: 112px;
+	color: #6c6c6c;
+	border: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+
+.taobao-body .head-code a .h{
+	display: block;
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	margin: 4px auto 0;
+	width: 78px;
+	color: #f40!important;
+}
+
+.taobao-body .head-code a img{
+	display: block;
+	margin-left: 8px;
+	width: 80px;
+	height: 80px;
+}
+
+.taobao-body .search-head{
+	height: 25px;
+}
+
+.taobao-body .head-search .search-head li{
+	float: left;
+	text-align: center;
+	width: 50px;
+	height: 25px;
+	line-height: 25px;
+	cursor: pointer;
+}
+
+.taobao-body .head-search .search-head li a{
+	display: block;
+	width: 50px;
+	height: 25px;
+	color: rgb(60, 60, 60);
+}
+
+.taobao-body .head-search .search-head li a:hover{
+	background-color: #f9e6e6;
+	color: #c60000;
+}
+
+.taobao-body .head-search .search-head li a.choosen{
+	background-color: #ff5400;
+	color: #fff;
+}
+
+.taobao-body .head-search .search-box{
+	position: relative;
+	height: 34px;
+	border-width: 3px 0 3px 3px;
+	border-style: solid;
+	border-color: #ff5400;
+}
+
+.taobao-body .head-search .search-box .content{
+	padding: 6px 0;
+	text-indent: 10px;
+	height: 22px;
+	line-height: 22px;
+	width: 618px;
+	border: 0;
+	outline: 0;
+	background: #fff;
+}
+
+.taobao-body .head-search .search-box .submit{
+	width: 105px;
+	height: 36px;
+	background-image: url(6.png);
+	background-repeat: no-repeat;
+	border: 0px;
+	position: absolute;
+	right: 0px;
+}
+
+
+.taobao-body .head-search .searchfoot-nav{
+	position: relative;
+	padding: 5px 41px 0 0;
+	height: 20px;
+}
+
+.taobao-body .head-search .searchfoot-nav a{
+	float: left;
+	margin-right: 8px;
+	color: #6c6c6c;
+}
+
+.taobao-body .head-search .searchfoot-nav a:hover{
+	color: #ff5400;
+}
+
+
+.taobao-body .head-search .searchfoot-nav .formore{
+	position: absolute;
+	right: 0px;
+	top: 4px;
+	display: inline-block;
+	width: 30px;
+	height: 20px;
+	padding-left: 5px;
+}
+
+.taobao-body .superSearch{
+	position: absolute;
+	right: 185px;
+	top: 45px;
+	line-height: 18px;
+	display: block;
+	width: 24px;
+	height: 32px;
+}
+
+.taobao-body .superSearch:hover{
+	color: #ff5400;
+}
+
+.taobao-body .tradeNav:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.taobao-body .tradeNav .main{
+	float: left;
+	width: 100%;
+}
+
+.taobao-body .tradeNav .main .cont{
+	margin-left: 200px;
+	height: 200px;
+}
+
+.taobao-body .tradeNav .main .cont:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+.taobao-body .tradeNav .main .nav1{
+	position: relative;
+	height: 34px;
+	border-bottom: 2px solid #f40;
+	overflow: hidden;
+
+}
+
+.taobao-body .tradeNav .serve{
+	float: left;
+	width: 190px;
+	height: 200px;
+	margin-left: -100%;
+}
+
+.taobao-body .tradeNav .main .nav1 ul{
+	margin-top: 4px;
+	height: 33px;
+}
+
+.taobao-body .tradeNav .main .type1{
+	float: left;
+}
+
+.taobao-body .tradeNav .main .type1 li{
+	float: left;
+	margin: 0 10px;
+	text-align: center;
+	font-size: 16px;
+	font-weight: 700;
+}
+
+
+.taobao-body .tradeNav .nav1 .type1 a{
+	padding: 0 3px;
+	width: 52px;
+	color: #f40;
+	display:block;
+	height: 28px;
+	line-height: 28px;
+	font-size: 16px;
+	overflow: hidden;
+	float: left;
+}
+
+.taobao-body .tradeNav .nav1 .type1 a:hover{
+	color: #eee;
+}
+
+.taobao-body .tradeNav .main .type2{
+	float: left;
+}
+
+.taobao-body .tradeNav .main .type2 li{
+	margin: 0 9px;
+	float: left;
+	font-weight: 700;
+}
+
+.taobao-body .tradeNav .main .type2 li a{
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	font-size: 14px;
+	overflow: hidden;
+	float: left;
+	padding: 0 5px;
+}
+
+.taobao-body .tradeNav .main .type2 li a:hover{
+	color: #f40;
+	background-color: #eee;
+}
+
+.taobao-body .tradeNav .type2 .pipe{
+	height: 28px;
+	line-height: 28px;
+	font-weight: 400;
+	font-size: 14px;
+	color: rgb(232, 232, 232);
+}
+
+.taobao-body .tradeNav .type3{
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+	float: right;
+	position: absolute;
+	top: -2px;
+	width: 170px;
+	right: 0;
+}
+
+.taobao-body .tradeNav .type3 li{
+	float: left;
+	font-weight: 700;
+}
+
+
+.taobao-body .tradeNav .pic1{
+	padding-top: 10px;
+	float: left;
+	width: 520px;
+	height: 280px;
+
+}
+
+.taobao-body .tradeNav .pic2{
+	padding-top: 10px;
+	float: left;
+}
+
+.taobao-body .tradeNav .indi{
+	padding-left: 8px;
+	float: left;
+	padding-left: 10px;
+	width: 290px;
+	margin-top: 10px;
+	background: #fff;
+}
+
+.taobao-body .tradeNav .pic1 .fir{
+	position: relative;
+	width: 520px;
+	height: 280px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+
+.taobao-body .tradeNav .pic1 .sec{
+	position: relative;
+	width: 520px;
+	height: 280px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+
+
+.taobao-body .tradeNav .pic2 .fir{
+	position: relative;
+	width: 170px;
+	height: 280px;
+	border-top: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+	overflow: hidden;
+}
+
+.taobao-body .tradeNav .pic2 .sec{
+	position: relative;
+	width: 170px;
+	height: 280px;
+	overflow: hidden;
+}
+
+.taobao-body .tradeNav .indi-nav{
+	border: 1px solid #ddd;
+}
+
+.taobao-body .tradeNav .indi-nav .fir-nav{
+	height: 27px;
+	background-color: #f7f7f7;
+}
+
+.taobao-body .tradeNav .indi-nav .fir-nav li{
+	float: left;
+	display: block;
+	height: 26px;
+	line-height: 26px;
+	overflow: hidden;
+	padding: 0 1px;
+	width: 55px;
+	text-align: center;
+	border-bottom: 1px solid #e8e8e8;
+}
+
+.taobao-body .tradeNav .indi-nav .fir-nav li.selected{
+	padding: 0;
+	font-weight: 700;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	border-bottom-color: #fff;
+	background-color: #fff;
+}
+
+.taobao-body .tradeNav .indi-nav .fir-nav li>a:hover{
+	color: #f40;
+}
+
+.taobao-body .tradeNav .indi-nav .cont-nav{
+	margin: 10px;
+	height: 50px;
+}
+
+.taobao-body .tradeNav .indi-nav .cont-nav li{
+	float: left;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    width: 134px;
+}
+
+.taobao-body .tradeNav .indi-nav .cont-nav li a:hover{
+	color: #f40;
+}
+
+
+.taobao-body .tradeNav .indi-info{
+	padding: 5px 10px;
+	width: 268px;
+	height: 110px;
+	margin-top: -1px;
+	border: 1px solid #ddd;
+	background-position: right top;
+	overflow: hidden;
+    
+}
+
+.taobao-body .tradeNav .indi-info .wrapper{
+	position: relative;
+	margin-bottom: 5px;
+	height: 60px;
+	padding: 5px 0 0 70px;
+	overflow: hidden;
+}
+
+.taobao-body .tradeNav .indi-info .info1{
+
+}
+
+.taobao-body .tradeNav .indi-info .info1 img{
+    position: absolute;
+	top: 0;
+	left:  0;
+	width: 60px;
+	height: 60px;
+	-moz-border-radius: 50%;
+	-webkit-border-radius:50%;
+	border-radius: 50%;
+	overflow: hidden;
+}
+
+.taobao-body .tradeNav .indi-info .info2{
+	margin-top: 5px;
+}
+
+.taobao-body .tradeNav .indi-info .info2 a:first-of-type{
+	margin-right: 5px;
+	width: 107px;
+}
+
+.taobao-body .tradeNav .indi-info .info2 .icon{
+	float: left;
+	margin: 4px 0 4px 4px;
+	width: 18px;
+	height: 18px;
+	background-image: url(8.png);
+	background-repeat:no-repeat;
+	background-size: 100%;
+}
+
+.taobao-body .tradeNav .indi-info .info2 a{
+	float: left;
+	display: block;
+	height: 28px;
+	line-height: 28px;
+	overflow: hidden;
+	width: 74px;
+	text-align: center;
+	color: #f55732;
+	border: 1px solid #fdb08e;
+	-moz-border-radius:2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	background: #fff0e8;
+}
+
+.taobao-body .tradeNav .indi-info .wrapper2{
+	height: 41px;
+	overflow: hidden;
+}
+
+.taobao-body .tradeNav .indi-info .wrapper2 .cont2{
+	overflow: hidden;
+	width: 260px;
+	height: 36px;
+	margin-bottom: 9px;
+}
+
+.taobao-body .indi-info .cont2 a{
+	float: left;
+	display: block;
+	height: 35px;
+	line-height: 35px;
+	overflow: hidden;
+	width: 75px;
+	margin-left: 5px;
+	text-align: center;
+	color:#fff;
+	border-radius: 2px;
+	box-shadow: #ddd 0 1px 1px;
+	background: #f40;
+}
+
+.taobao-body .indi-info .cont2 a:hover{
+	background-color: red;
+}
+
+.taobao-body .indiinf .cont2 a.fir{
+	width: 100px;
+	margin-left: 0px;
+}
+
+.taobao-body .tradeNav .indi-cont {
+	position: relative;
+	padding-bottom: 10px;
+	width: 288px;
+	height: 249px;
+	border-top: 0;
+	background: #f4f4f4;
+	overflow: hidden;
+	border: 1px solid #e8e8e8;
+}
+
+.taobao-body .tradeNav .indi-cont .tit{
+	position: relative;
+	padding: 0 16px;
+}
+
+.taobao-body .tradeNav .indi-cont .tit h3{
+	width: 70px;
+	height: 16px;
+	text-indent: -200px;
+	margin-top: 10px;
+	overflow: hidden;
+	background-position: 100%;
+	background-image: url(b.png);
+	margin-bottom: 5px;
+}
+
+.taobao-body .tradeNav .indi-cont{
+	position: relative;
+	margin-top: 10px;
+	height: 238px;
+	overflow: hidden;
+}
+
+.taobao-body .tradeNav .indi-cont .cont3 a{
+	float: left;
+	margin: 0px 10px 10px 0;
+	width: 56px;
+	height: 63px;
+	color:#9c9c9c;
+	background: #fff;
+	border-radius: 3px;
+	cursor: pointer;
+	text-align: center;
+	outline: 0;
+	overflow: hidden;
+	border: 1px solid #ddd;
+}
+
+.taobao-body .tradeNav .serve .wrapper{
+	width: 190px;
+	box-shadow: 2px 2px 0 #eeeef0;
+	background-color: #fff;
+	position: relative;
+}
+
+.taobao-body .tradeNav .serve .wrapper h2{
+	background-color: #f40;
+	height: 35px;
+}
+
+.taobao-body .tradeNav .serve .wrapper .ser-logo{
+	display: inline-block;
+	vertical-align: middle;
+	margin: 10px 14px;
+	height: 16px;
+	width: 100px;
+	text-indent: -2000px;
+	background-image: url(a.png);
+	background-position: 100%;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.taobao-body .tradeNav .serve .wrapper dl{
+	height: 489px;
+	overflow-y:hidden;
+	border: 1px solid #ff4401;
+	border-top: 0;
+	padding: 0 9px; 
+}
+
+.taobao-body .tradeNav .serve .wrapper dt{
+	padding-top: 13px;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 19px;
+	padding-bottom: 1px;
+}
+
+.taobao-body .tradeNav .serve .wrapper dd{
+	border-bottom: 1px solid #e6e7eb;
+	padding-bottom: 13px;
+	padding-left: 5px;
+	line-height: 22px;
+}
+
+.taobao-body .tradeNav .serve .wrapper .last-dd{
+	border:0px;
+}
+
+/*.taobao-body .tradeNav .serve .fir-logo,.taobao-body .tradeNav .serve .sec-logo,.taobao-body .tradeNav .serve .thr-logo,.taobao-body .tradeNav .serve .fth-logo{
+	display: inline-block;
+	vertical-align: middle;
+	width: 25px;
+	height: 21px;
+	margin-right: 7px;
+	margin-top: -3px;
+	background-image: url();
+}
+
+.taobao-body .tradeNav .serve .fir-logo{
+
+}
+
+.taobao-body .tradeNav .serve .sec-logo{
+
+}
+
+.taobao-body .tradeNav .serve .thr-logo{
+
+}
+
+.taobao-body .tradeNav .serve .fth-logo{
+
+}*/
+
+.taobao-body .tradeNav .serve dl a{
+	display: inline-block;
+	vertical-align: middle;
+	position: relative;
+}
+
+.taobao-body .tradeNav .serve a.c1{
+	width: 63px;
+}
+
+.taobao-body .tradeNav .serve a.c2{
+	width: 57px;
+}
+
+.taobao-body .tradeNav .serve a.c3{
+	width: 33px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
